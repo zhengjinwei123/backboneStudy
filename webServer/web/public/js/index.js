@@ -43,7 +43,7 @@ define(function (require, exports, module) {
 
     function demo1() {
         var Man = Backbone.Model.extend({
-            url: "/index/",
+            url: "/index",
             initialize: function () {
                 console.log("your create me!Man");
                 this.bind("change:name", function () {
@@ -88,15 +88,18 @@ define(function (require, exports, module) {
 
         //man.fetch({url: 'http://localhost:9901/index'});
 
-        //man.fetch({
-        //    url: 'http://localhost:9901/index',
-        //    success: function (model, response) {
-        //        alert('success');
-        //        alert(model.get('name'));
-        //    }, error: function () {
-        //        alert('error');
-        //    }
-        //});
+        man.fetch({
+            url: '/index/data',
+            success: function (model, response) {
+                alert('success');
+                console.log(response);
+                console.log(model.get("name"));
+                console.log(model.get("age"));
+            },
+            error: function (model,response) {
+                alert('error' + model.get("name")+JSON.stringify(response));
+            }
+        });
     }
 
     demo1();
