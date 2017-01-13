@@ -11,3 +11,91 @@
 [2017-01-13 14:32:23.779] [INFO] Http - 127.0.0.1  
 [2017-01-13 14:32:23.780] [INFO] Http - {"httpVersion":"1.1","route":"index","params":{},"method":"GET","statusCode":null,"headers":{"host":"localhost:9901","connection":"keep-alive","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.22 Safari/537.36 SE 2.X MetaSr 1.0","accept-encoding":"gzip, deflate, gzip","accept-language":"zh-CN,zh;q=0.8","cookie":"expressSecret=s%3AQ3_vW83miaff0G5oirs-iIYspnA3LOWO.P3ZZyxDhLgXgMLCMEZN8K1SstEqEbfAvL%2Fe6ThWXlHY; mySID=cf3eca841876991658549d2dec9f03e3"},"remoteAddress":"127.0.0.1","body":{"type":"Buffer","data":[]}}  
 [2017-01-13 14:32:23.780] [INFO] Http - 1  
+[2017-01-13 16:38:30.464] [INFO] Http - jade loader start.  
+[2017-01-13 16:38:36.754] [INFO] Http - 127.0.0.1  
+[2017-01-13 16:38:37.605] [INFO] Http - {"httpVersion":"1.1","route":"index","params":{},"method":"GET","statusCode":null,"headers":{"host":"localhost:9901","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","origin":"null","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.22 Safari/537.36 SE 2.X MetaSr 1.0","accept-encoding":"gzip, deflate, gzip","accept-language":"zh-CN,zh;q=0.8"},"remoteAddress":"127.0.0.1","body":{"type":"Buffer","data":[]}}  
+[2017-01-13 16:38:37.608] [INFO] Http - 855  
+[2017-01-13 16:38:37.620] [INFO] Http - 127.0.0.1  
+[2017-01-13 16:38:37.624] [INFO] Http - {"httpVersion":"1.1","route":"index","params":{},"method":"GET","statusCode":null,"headers":{"host":"localhost:9901","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","origin":"null","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.22 Safari/537.36 SE 2.X MetaSr 1.0","accept-encoding":"gzip, deflate, gzip","accept-language":"zh-CN,zh;q=0.8"},"remoteAddress":"127.0.0.1","body":{"type":"Buffer","data":[]}}  
+[2017-01-13 16:38:37.625] [INFO] Http - 5  
+[2017-01-13 16:38:37.629] [INFO] Http - 127.0.0.1  
+[2017-01-13 16:38:37.630] [INFO] Http - {"httpVersion":"1.1","route":"index","params":{},"method":"GET","statusCode":null,"headers":{"host":"localhost:9901","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","origin":"null","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.22 Safari/537.36 SE 2.X MetaSr 1.0","accept-encoding":"gzip, deflate, gzip","accept-language":"zh-CN,zh;q=0.8"},"remoteAddress":"127.0.0.1","body":{"type":"Buffer","data":[]}}  
+[2017-01-13 16:38:37.630] [INFO] Http - 1  
+[2017-01-13 16:39:26.800] [INFO] Http - 127.0.0.1  
+[2017-01-13 16:39:26.801] [INFO] Http - does not support OPTIONS method  
+[2017-01-13 16:39:26.801] [INFO] Http - error:server does not support OPTIONS request method  
+[2017-01-13 16:39:26.801] [INFO] Http - {"error":"error:server does not support OPTIONS request method"}  
+[2017-01-13 16:39:26.802] [INFO] Http - 2  
+[2017-01-13 16:39:26.810] [INFO] Http - 127.0.0.1  
+[2017-01-13 16:39:26.811] [INFO] Http - {"httpVersion":"1.1","route":"index","params":{},"method":"GET","statusCode":null,"headers":{"host":"localhost:9901","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","origin":"null","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.22 Safari/537.36 SE 2.X MetaSr 1.0","accept-encoding":"gzip, deflate, gzip","accept-language":"zh-CN,zh;q=0.8"},"remoteAddress":"127.0.0.1","body":{"type":"Buffer","data":[]}}  
+[2017-01-13 16:39:26.812] [INFO] Http - 2  
+[2017-01-13 16:39:26.814] [INFO] Http - 127.0.0.1  
+[2017-01-13 16:39:26.815] [INFO] Http - {"httpVersion":"1.1","route":"index","params":{},"method":"GET","statusCode":null,"headers":{"host":"localhost:9901","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","origin":"null","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.22 Safari/537.36 SE 2.X MetaSr 1.0","accept-encoding":"gzip, deflate, gzip","accept-language":"zh-CN,zh;q=0.8"},"remoteAddress":"127.0.0.1","body":{"type":"Buffer","data":[]}}  
+[2017-01-13 16:39:26.815] [INFO] Http - 1  
+[2017-01-13 16:39:26.819] [INFO] Http - 127.0.0.1  
+[2017-01-13 16:39:26.821] [INFO] Http - {"httpVersion":"1.1","route":"index","params":{},"method":"GET","statusCode":null,"headers":{"host":"localhost:9901","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","origin":"null","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.22 Safari/537.36 SE 2.X MetaSr 1.0","accept-encoding":"gzip, deflate, gzip","accept-language":"zh-CN,zh;q=0.8"},"remoteAddress":"127.0.0.1","body":{"type":"Buffer","data":[]}}  
+[2017-01-13 16:39:26.821] [INFO] Http - 2  
+[2017-01-13 16:40:12.509] [INFO] Http - 127.0.0.1  
+[2017-01-13 16:40:12.510] [INFO] Http - {"httpVersion":"1.1","route":"index","params":{},"method":"GET","statusCode":null,"headers":{"host":"localhost:9901","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","origin":"null","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.22 Safari/537.36 SE 2.X MetaSr 1.0","accept-encoding":"gzip, deflate, gzip","accept-language":"zh-CN,zh;q=0.8"},"remoteAddress":"127.0.0.1","body":{"type":"Buffer","data":[]}}  
+[2017-01-13 16:40:12.510] [INFO] Http - 1  
+[2017-01-13 16:40:18.732] [INFO] Http - 127.0.0.1  
+[2017-01-13 16:40:18.733] [INFO] Http - {"httpVersion":"1.1","route":"index","params":{},"method":"GET","statusCode":null,"headers":{"host":"localhost:9901","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","origin":"null","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.22 Safari/537.36 SE 2.X MetaSr 1.0","accept-encoding":"gzip, deflate, gzip","accept-language":"zh-CN,zh;q=0.8"},"remoteAddress":"127.0.0.1","body":{"type":"Buffer","data":[]}}  
+[2017-01-13 16:40:18.733] [INFO] Http - 1  
+[2017-01-13 16:41:02.152] [INFO] Http - 127.0.0.1  
+[2017-01-13 16:41:02.153] [INFO] Http - {"httpVersion":"1.1","route":"index","params":{},"method":"GET","statusCode":null,"headers":{"host":"localhost:9901","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","origin":"null","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.22 Safari/537.36 SE 2.X MetaSr 1.0","accept-encoding":"gzip, deflate, gzip","accept-language":"zh-CN,zh;q=0.8"},"remoteAddress":"127.0.0.1","body":{"type":"Buffer","data":[]}}  
+[2017-01-13 16:41:02.154] [INFO] Http - 2  
+[2017-01-13 16:41:16.208] [INFO] Http - 127.0.0.1  
+[2017-01-13 16:41:16.209] [INFO] Http - {"httpVersion":"1.1","route":"index","params":{},"method":"GET","statusCode":null,"headers":{"host":"localhost:9901","connection":"keep-alive","cache-control":"max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.22 Safari/537.36 SE 2.X MetaSr 1.0","accept-encoding":"gzip, deflate, gzip","accept-language":"zh-CN,zh;q=0.8","cookie":"expressSecret=s%3AQ3_vW83miaff0G5oirs-iIYspnA3LOWO.P3ZZyxDhLgXgMLCMEZN8K1SstEqEbfAvL%2Fe6ThWXlHY; mySID=cf3eca841876991658549d2dec9f03e3"},"remoteAddress":"127.0.0.1","body":{"type":"Buffer","data":[]}}  
+[2017-01-13 16:41:16.209] [INFO] Http - 2  
+[2017-01-13 16:42:58.640] [INFO] Http - 127.0.0.1  
+[2017-01-13 16:42:58.641] [INFO] Http - {"httpVersion":"1.1","route":"index","params":{},"method":"GET","statusCode":null,"headers":{"host":"localhost:9901","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","origin":"null","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.22 Safari/537.36 SE 2.X MetaSr 1.0","accept-encoding":"gzip, deflate, gzip","accept-language":"zh-CN,zh;q=0.8"},"remoteAddress":"127.0.0.1","body":{"type":"Buffer","data":[]}}  
+[2017-01-13 16:42:58.642] [INFO] Http - 2  
+[2017-01-13 16:43:00.820] [INFO] Http - 127.0.0.1  
+[2017-01-13 16:43:00.820] [INFO] Http - {"httpVersion":"1.1","route":"index","params":{},"method":"GET","statusCode":null,"headers":{"host":"localhost:9901","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","origin":"null","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.22 Safari/537.36 SE 2.X MetaSr 1.0","accept-encoding":"gzip, deflate, gzip","accept-language":"zh-CN,zh;q=0.8"},"remoteAddress":"127.0.0.1","body":{"type":"Buffer","data":[]}}  
+[2017-01-13 16:43:00.821] [INFO] Http - 1  
+[2017-01-13 16:44:11.533] [INFO] Http - 127.0.0.1  
+[2017-01-13 16:44:11.535] [INFO] Http - {"httpVersion":"1.1","route":"index","params":{},"method":"GET","statusCode":null,"headers":{"host":"localhost:9901","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","origin":"null","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.22 Safari/537.36 SE 2.X MetaSr 1.0","accept-encoding":"gzip, deflate, gzip","accept-language":"zh-CN,zh;q=0.8"},"remoteAddress":"127.0.0.1","body":{"type":"Buffer","data":[]}}  
+[2017-01-13 16:44:11.535] [INFO] Http - 2  
+[2017-01-13 16:47:32.353] [INFO] Http - jade loader start.  
+[2017-01-13 16:47:35.298] [INFO] Http - 127.0.0.1  
+[2017-01-13 16:47:35.312] [INFO] Http - {"httpVersion":"1.1","route":"index","params":{},"method":"GET","statusCode":null,"headers":{"host":"localhost:9901","connection":"keep-alive","cache-control":"max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.22 Safari/537.36 SE 2.X MetaSr 1.0","accept-encoding":"gzip, deflate, gzip","accept-language":"zh-CN,zh;q=0.8","cookie":"expressSecret=s%3AQ3_vW83miaff0G5oirs-iIYspnA3LOWO.P3ZZyxDhLgXgMLCMEZN8K1SstEqEbfAvL%2Fe6ThWXlHY; mySID=cf3eca841876991658549d2dec9f03e3"},"remoteAddress":"127.0.0.1","body":{"type":"Buffer","data":[]}}  
+[2017-01-13 16:47:35.314] [INFO] Http - 16  
+[2017-01-13 16:47:53.624] [INFO] Http - jade loader start.  
+[2017-01-13 16:47:54.756] [INFO] Http - 127.0.0.1  
+[2017-01-13 16:47:54.770] [INFO] Http - {"httpVersion":"1.1","route":"index","params":{},"method":"GET","statusCode":null,"headers":{"host":"localhost:9901","connection":"keep-alive","cache-control":"max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.22 Safari/537.36 SE 2.X MetaSr 1.0","accept-encoding":"gzip, deflate, gzip","accept-language":"zh-CN,zh;q=0.8","cookie":"expressSecret=s%3AQ3_vW83miaff0G5oirs-iIYspnA3LOWO.P3ZZyxDhLgXgMLCMEZN8K1SstEqEbfAvL%2Fe6ThWXlHY; mySID=cf3eca841876991658549d2dec9f03e3"},"remoteAddress":"127.0.0.1","body":{"type":"Buffer","data":[]}}  
+[2017-01-13 16:47:54.772] [INFO] Http - 17  
+[2017-01-13 16:48:04.849] [INFO] Http - 127.0.0.1  
+[2017-01-13 16:48:04.851] [INFO] Http - {"httpVersion":"1.1","route":"index","params":{},"method":"GET","statusCode":null,"headers":{"host":"localhost:9901","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","origin":"null","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.22 Safari/537.36 SE 2.X MetaSr 1.0","accept-encoding":"gzip, deflate, gzip","accept-language":"zh-CN,zh;q=0.8"},"remoteAddress":"127.0.0.1","body":{"type":"Buffer","data":[]}}  
+[2017-01-13 16:48:04.851] [INFO] Http - 2  
+[2017-01-13 16:50:37.234] [INFO] Http - 127.0.0.1  
+[2017-01-13 16:50:37.236] [INFO] Http - {"httpVersion":"1.1","route":"index","params":{},"method":"GET","statusCode":null,"headers":{"host":"localhost:9901","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","origin":"null","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.22 Safari/537.36 SE 2.X MetaSr 1.0","accept-encoding":"gzip, deflate, gzip","accept-language":"zh-CN,zh;q=0.8"},"remoteAddress":"127.0.0.1","body":{"type":"Buffer","data":[]}}  
+[2017-01-13 16:50:37.236] [INFO] Http - 3  
+[2017-01-13 16:51:59.849] [INFO] Http - jade loader start.  
+[2017-01-13 16:52:02.516] [INFO] Http - 127.0.0.1  
+[2017-01-13 16:52:02.548] [INFO] Http - {"httpVersion":"1.1","route":"index","params":{},"method":"GET","statusCode":null,"headers":{"host":"localhost:9901","connection":"keep-alive","accept":"application/json, text/javascript, */*; q=0.01","origin":"null","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.22 Safari/537.36 SE 2.X MetaSr 1.0","accept-encoding":"gzip, deflate, gzip","accept-language":"zh-CN,zh;q=0.8"},"remoteAddress":"127.0.0.1","body":{"type":"Buffer","data":[]}}  
+[2017-01-13 16:52:02.551] [INFO] Http - 36  
+[2017-01-13 16:52:53.948] [INFO] Http - jade loader start.  
+[2017-01-13 16:53:07.005] [INFO] Http - jade loader start.  
+[2017-01-13 16:53:46.302] [INFO] Http - 127.0.0.1  
+[2017-01-13 16:53:46.304] [INFO] Http - does not support OPTIONS method  
+[2017-01-13 16:53:46.304] [INFO] Http - error:server does not support OPTIONS request method  
+[2017-01-13 16:53:46.305] [INFO] Http - {"error":"error:server does not support OPTIONS request method"}  
+[2017-01-13 16:53:46.307] [INFO] Http - 5  
+[2017-01-13 16:55:15.176] [INFO] Http - jade loader start.  
+[2017-01-13 16:55:18.602] [INFO] Http - 127.0.0.1  
+[2017-01-13 16:55:18.604] [INFO] Http - does not support OPTIONS method  
+[2017-01-13 16:55:18.604] [INFO] Http - error:server does not support OPTIONS request method  
+[2017-01-13 16:55:18.605] [INFO] Http - {"error":"error:server does not support OPTIONS request method"}  
+[2017-01-13 16:55:18.607] [INFO] Http - 5  
+[2017-01-13 16:56:08.471] [INFO] Http - jade loader start.  
+[2017-01-13 16:56:10.927] [INFO] Http - 127.0.0.1  
+[2017-01-13 16:56:10.932] [INFO] Http - does not support OPTIONS method msg:[object Object]  
+[2017-01-13 16:56:10.933] [INFO] Http - error:server does not support OPTIONS request method  
+[2017-01-13 16:56:10.934] [INFO] Http - {"error":"error:server does not support OPTIONS request method"}  
+[2017-01-13 16:56:10.939] [INFO] Http - 12  
+[2017-01-13 16:56:28.919] [INFO] Http - jade loader start.  
+[2017-01-13 16:56:30.354] [INFO] Http - 127.0.0.1  
+[2017-01-13 16:56:30.355] [INFO] Http - does not support OPTIONS method msg:{"httpVersion":"1.1","route":"index","params":{},"method":"OPTIONS","statusCode":null,"headers":{"host":"localhost:9901","connection":"keep-alive","access-control-request-method":"POST","origin":"null","user-agent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.22 Safari/537.36 SE 2.X MetaSr 1.0","access-control-request-headers":"accept, content-type","accept":"*/*","accept-encoding":"gzip, deflate, gzip","accept-language":"zh-CN,zh;q=0.8"},"remoteAddress":"127.0.0.1"}  
+[2017-01-13 16:56:30.356] [INFO] Http - error:server does not support OPTIONS request method  
+[2017-01-13 16:56:30.356] [INFO] Http - {"error":"error:server does not support OPTIONS request method"}  
+[2017-01-13 16:56:30.358] [INFO] Http - 5  

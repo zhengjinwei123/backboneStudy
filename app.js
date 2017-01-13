@@ -10,13 +10,16 @@ JadeLoader.init(Path.join(__dirname), true, 360, function () {
     var Logger = Singleton.getDemon(LogUtil, Path.join(__dirname, "./config/logger.json"), Path.join(__dirname, "./logs"));
     Logger.info("Http", "jade loader start.");
 
-    var HttpServer = Singleton.getDemon(JadeLoader.Jader('plugin').get('http'), 9901,'127.0.0.1',{
+    var HttpServer = Singleton.getDemon(JadeLoader.Jader('plugin').get('http'), 9901, '127.0.0.1', {
         filtersFunc: [
-            function (message) {
+            function (message, response) {
+                //解决跨域问题
+                console.log("消息拦截",message);
+                response.setHeader("Access-Control-Allow-Origin", "*");
                 return true;
             }
         ]
-    }, Path.join(__dirname, "./web"),null);
+    }, Path.join(__dirname, "./web"), null);
 
     HttpServer.createServer();
 

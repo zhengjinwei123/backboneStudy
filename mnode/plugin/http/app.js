@@ -205,7 +205,7 @@ HttpServer.prototype.createServer = function () {
                     var e = null;
                     if (self.methods.indexOf(message.method.toLowerCase()) == -1) {
 
-                        self.emit("error", "does not support " + message.method + " method");
+                        self.emit("error", "does not support " + message.method + " method msg:" + JSON.stringify(message));
                         e = {msg: Util.format("server does not support %s request method", message.method)};
                     }
                     try {
@@ -320,7 +320,7 @@ HttpServer.prototype.processMessage = function (message, response, connection) {
             var retCode = true;
             this.opts.filtersFunc.forEach(function (func) {
                 if (_.isFunction(func)) {
-                    retCode = retCode && func(message);
+                    retCode = retCode && func(message, response);
                 }
             });
 
