@@ -1,0 +1,53 @@
+{
+  "appenders": [
+    {
+      "type": "console"
+    },
+    {
+      "type": "file",
+      "filename": "mnode.log",
+      "pattern": "connector",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "mnode"
+    },
+    {
+      "type": "file",
+      "filename": "jadeLoader.log",
+      "pattern": "connector",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "jadeLoader"
+    },
+    {
+      "type": "file",
+      "filename": "plugin_http.log",
+      "pattern": "connector",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "Http"
+    }
+  ],
+  "levels": {
+  },
+  "replaceConsole": true,
+  "lineDebug": true,
+  "rawMessage": true,
+  "openLog": {
+    "debug": true,
+    "error": true,
+    "info": true,
+    "warn": true,
+    "fatal": true,
+    "console": true
+  }
+}
