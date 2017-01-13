@@ -1,0 +1,10 @@
+require.config({
+    paths:{
+        jquery:["../public/lib/jquery.min"],
+        underscore:["../public/lib/underscore.min"],
+        backbone:["../public/lib/backbone.min"]
+    },
+    shim:{
+        backbone:{deps:["jquery","underscore"]}
+    }
+});
