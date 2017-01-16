@@ -60,7 +60,6 @@ var LoggerUtils = function (configPath, logPath) {
                 //var configTemp = configPath.split(".");
                 //FileUtil.writeSync(configTemp[0] + "-tmp.json", JSON.stringify(configContent));
                 Pomelo.configure(configContent);
-
                 categoryList.forEach(function (c) {
                     self.loggers[c] = Pomelo.getLogger(c);
                 });

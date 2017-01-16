@@ -34,6 +34,7 @@
     "multer": "^1.1.0",
     "mysql": "^2.12.0",
     "newbeely-nodejs": "1.x",
+    "node-gyp": "^3.5.0",
     "node-schedule": "*",
     "pomelo-logger": "0.1.x",
     "pomelo-scheduler": "0.3.x",
@@ -42,7 +43,8 @@
     "rangedate": "0.0.2",
     "redis": "0.12.x",
     "request": "*",
-    "serve-favicon": "^2.3.2",
+    "serve-favicon": "*",
+    "tagg": "^1.1.0",
     "underscore": "1.6.x",
     "utility": "*",
     "uuid": "*",
@@ -53,7 +55,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@111.206.85.29:ZplayOpenPlatform/ZplayCmsTools.git"
+    "url": "https://github.com/zhengjinwei123/mnode.git"
   },
   "keywords": [
     "mnode",
