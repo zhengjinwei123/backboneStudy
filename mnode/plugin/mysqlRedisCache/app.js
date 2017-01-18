@@ -92,7 +92,7 @@ function firstUppercase(str) { // 正则法
 function genModels(ModelPath, dataList, callback,modelPath) {
     var template = FileUtil.readSync(Path.join(__dirname, "./template/model.js"));
 
-    modelPath = modelPath.replace("\\","/");
+    modelPath = modelPath.replace(/\\/g,"/");
     _.forEach(dataList, function (v, tableName) {
         var temp = template.replace(/MODELNAME/g, firstUppercase(tableName));
         temp = temp.replace(/tablename/, tableName);

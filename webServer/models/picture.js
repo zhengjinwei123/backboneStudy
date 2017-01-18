@@ -1,8 +1,8 @@
 /**
- * Created by zhengjinwei on 2017-01-18 19:10:59.
+ * Created by zhengjinwei on 2017-01-18 19:12:36.
  * model代码基于工具自动生成,不要进行修改
  */
-var Model = require('../..\mnode\plugin\mysqlRedisCache\model');
+var Model = require('../../mnode/plugin/mysqlRedisCache/model');
 var Util = require("util");
 
 function Picture(){
