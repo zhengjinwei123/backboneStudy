@@ -9,6 +9,10 @@ var Logger = Singleton.getInstance(require("../mnode/app").utils.Logger, Path.jo
 JadeLoader.init(Path.join(__dirname, "../"), true, 360, function () {
     Logger.info("jadeLoader", "jade Loader Finished");
 
+    JadeLoader.Jader("plugin").getInstance('mysqlRedisCache',Path.join(__dirname,"./sql/picture.xml"),Path.join(__dirname,"./models"),function(){
+        console.log("数据模型生成完成");
+    });
+
     var Express = JadeLoader.Jader('plugin').getInstance('express', '127.0.0.1', 8086, Path.join(__dirname, "./web"));
 
     //定义过滤器中间件，消息先在这里进行过滤，然后进用户
