@@ -967,3 +967,6 @@
 [2017-01-16 12:27:22.796] [INFO] jadeLoader - jade Loader Finished  
 [2017-01-16 12:45:29.844] [INFO] jadeLoader - jade Loader Finished  
 [2017-01-16 12:50:02.294] [INFO] jadeLoader - jade Loader Finished  
+[2017-01-18 17:22:14.424] [INFO] jadeLoader - jade Loader Finished  
+[2017-01-18 17:28:14.426] [DEBUG] jadeLoader - hotLoad module start.  
+[2017-01-18 17:28:14.428] [DEBUG] jadeLoader - hotLoad module finish,cost 0 milliSecond  
