@@ -1,8 +1,71 @@
-body {
-    padding: 50px;
-    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+body{
+    background: url(../images/bk1.jpg);
+}
+.head-bar {
+    background-color: #A7C6FC;
+    width: 80%;
+    height: 100px;
+    margin-top:10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 1px 1px 2px 2px #C1C4C4;
+    background: url(../images/bk2.png);
 }
 
-a {
-    color: #00B7FF;
+.main {
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    margin-top: 4px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.left-bar {
+    width: 16%;
+    height: 95%;
+    float: left;
+    margin-top: 4px;
+    box-shadow: 2px 2px 2px 2px #C1C4C4;
+    background: url(../images/bk2.png);
+}
+
+.main-body {
+    margin-top: 2px;
+    width: 83%;
+    height: 95%;
+    float: right;
+    box-shadow: -2px 4px 2px 2px #001135;
+    background-color:floralwhite;
+    border-top: solid;
+}
+
+.radius-10 {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.radius-20 {
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.press {
+    color: transparent;
+    background-color: black;
+    text-shadow: rgba(255, 255, 255, 0.5) 0 5px 6px, rgba(255, 255, 255, 0.2) 1px 3px 3px;
+    -webkit-background-clip: text;
+}
+
+.font-style-1 {
+    font-family: 'Helvetica Neue', Helvetica, '华文行楷', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
+    font-size: 40px;
+}
+
+.threed {
+    color: #fafafa;
+    letter-spacing: 0;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135
 }
