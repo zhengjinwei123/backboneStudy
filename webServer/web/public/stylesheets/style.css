@@ -1,15 +1,68 @@
-body{
+body {
     background: url(../images/bk1.jpg);
 }
+
 .head-bar {
     background-color: #A7C6FC;
     width: 80%;
     height: 100px;
-    margin-top:10px;
+    margin-top: 10px;
     margin-left: 10%;
     margin-right: 10%;
     box-shadow: 1px 1px 2px 2px #C1C4C4;
     background: url(../images/bk2.png);
+}
+
+.head-bar-left {
+    width: 20%;
+    height: 100%;
+    float: left;
+    padding-left: 20px;
+    font-family: 'Helvetica Neue', Helvetica, '华文行楷', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
+    font-size: 40px;
+    padding-top: 20px;
+    text-align: left;
+    line-height: 40px;
+}
+
+.head-bar-middle {
+    border: 1px solid red;
+    float: left;
+    margin-left: 20px;
+    width: 30%;
+    height: 100%;
+}
+
+.head-bar-middle-input {
+    float: left;
+}
+
+.head-bar-middle-input input{
+    width:280px;
+    height:40px;
+    padding: 5px 5px;
+    font-size:20px;
+    line-height: 28px;
+}
+
+.head-bar-middle-button {
+    float: left;
+}
+.head-bar-middle-button button{
+    width:60px;
+    height:40px;
+    background-color: #0033FF;
+    color:red;
+    margin:0;
+    padding: 0;
+    font-family: "微软雅黑";
+    font-size:24px;
+}
+#section-search{
+    text-align: center;
+    margin: 0 auto;
+    /*width:260px;*/
+    /*height:200px;*/
 }
 
 .main {
@@ -36,7 +89,7 @@ body{
     height: 95%;
     float: right;
     box-shadow: -2px 4px 2px 2px #001135;
-    background-color:floralwhite;
+    background-color: floralwhite;
     border-top: solid;
 }
 
@@ -57,11 +110,6 @@ body{
     background-color: black;
     text-shadow: rgba(255, 255, 255, 0.5) 0 5px 6px, rgba(255, 255, 255, 0.2) 1px 3px 3px;
     -webkit-background-clip: text;
-}
-
-.font-style-1 {
-    font-family: 'Helvetica Neue', Helvetica, '华文行楷', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
-    font-size: 40px;
 }
 
 .threed {
